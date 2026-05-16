@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeuralPulse Academy — Learn to Use AI Like a Pro</title>
+  <meta name="description" content="A free, structured academy that teaches everyday people how to use AI well. Lessons, tracks, and a library — open to everyone." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page">
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="top">
+    <div class="header__inner">
+      <a class="header__logo" href="#top" aria-label="NeuralPulse Academy home">
+        <span class="header__logo-mark" aria-hidden="true"></span>
+        <span class="header__logo-text">NeuralPulse Academy</span>
+      </a>
+      <nav class="header__nav" aria-label="Primary">
+        <a class="header__link" href="#curriculum">Curriculum</a>
+        <a class="header__link" href="#tracks">Tracks</a>
+        <a class="header__link" href="#instructors">Instructors</a>
+        <a class="header__link" href="#library">Library</a>
+        <a class="header__link" href="#faq">FAQ</a>
+      </nav>
+      <button class="header__menu" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <canvas class="hero__canvas" id="hero-canvas" aria-hidden="true"></canvas>
+    <div class="hero__inner">
+      <p class="hero__eyebrow">A free open academy · est. 2026</p>
+      <h1 class="hero__title">Learn to Use AI<br/><span class="hero__title-accent">Like a Pro.</span></h1>
+      <p class="hero__subtitle">Free, structured lessons that turn curiosity into capability. No prerequisites, no payments — just careful, modern instruction in how to think and work with AI.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#curriculum">Explore the curriculum</a>
+        <a class="btn btn--ghost" href="#tracks">See learning tracks</a>
+      </div>
+      <ul class="hero__meta">
+        <li class="hero__meta-item"><strong>4</strong> learning tracks</li>
+        <li class="hero__meta-item"><strong>40+</strong> open lessons</li>
+        <li class="hero__meta-item"><strong>Free</strong> forever</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ WHY NOW ============ -->
+  <section class="why" id="curriculum">
+    <div class="container">
+      <header class="section-head">
+        <p class="section-head__eyebrow">Why learn AI now</p>
+        <h2 class="section-head__title">A moment worth understanding.</h2>
+        <p class="section-head__lede">AI is becoming the most common interface to information, code, and creativity. Learning to use it well — and knowing when not to — is fast becoming a baseline skill, not a specialty.</p>
+      </header>
+      <div class="why__grid">
+        <article class="why__card">
+          <img class="why__img" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80&auto=format&fit=crop" alt="A person studies on a laptop with charts and notes open" />
+          <h3 class="why__title">It compounds.</h3>
+          <p class="why__text">A clear morning lesson on prompting saves hours every week. The earlier you learn the patterns, the faster your craft improves.</p>
+        </article>
+        <article class="why__card">
+          <img class="why__img" src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80&auto=format&fit=crop" alt="Close-up of a circuit board with soft glowing traces" />
+          <h3 class="why__title">It changes weekly.</h3>
+          <p class="why__text">Tools and capabilities shift on a near-monthly cadence. We teach the underlying mental models so your skills age well.</p>
+        </article>
+        <article class="why__card">
+          <img class="why__img" src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200&q=80&auto=format&fit=crop" alt="Open notebook beside a laptop and warm coffee mug" />
+          <h3 class="why__title">It rewards taste.</h3>
+          <p class="why__text">Good output is downstream of good judgment. We focus on the human skills the machine cannot supply: framing, evaluation, ethics.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LEARNING TRACKS ============ -->
+  <section class="tracks" id="tracks">
+    <div class="container">
+      <header class="section-head">
+        <p class="section-head__eyebrow">Learning tracks</p>
+        <h2 class="section-head__title">Four paths through the field.</h2>
+        <p class="section-head__lede">Each track is a self-contained, ordered set of lessons. You can browse any of them freely.</p>
+      </header>
+      <div class="tracks__grid">
+        <article class="track-card">
+          <div class="track-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2"/></svg>
+          </div>
+          <h3 class="track-card__title">AI Foundations</h3>
+          <p class="track-card__text">What AI actually is, how modern models are trained, and the vocabulary you need to follow the field. Built from first principles, in plain English.</p>
+          <a class="track-card__link" href="#library">Lessons inside →</a>
+        </article>
+        <article class="track-card">
+          <div class="track-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16M4 12h10M4 19h16"/></svg>
+          </div>
+          <h3 class="track-card__title">Prompting Mastery</h3>
+          <p class="track-card__text">How to write prompts that consistently produce useful results. Patterns, structures, and the editing skills that separate hobby use from professional use.</p>
+          <a class="track-card__link" href="#library">Lessons inside →</a>
+        </article>
+        <article class="track-card">
+          <div class="track-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l4-4 4 4 4-6 4 8"/><path d="M3 20h18"/></svg>
+          </div>
+          <h3 class="track-card__title">AI for Productivity</h3>
+          <p class="track-card__text">Real workflows for writing, research, analysis, and code. Worked examples, not vague advice — and honest notes on what AI still gets wrong.</p>
+          <a class="track-card__link" href="#library">Lessons inside →</a>
+        </article>
+        <article class="track-card">
+          <div class="track-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/></svg>
+          </div>
+          <h3 class="track-card__title">Responsible AI</h3>
+          <p class="track-card__text">Safety, bias, verification, and ethics in everyday use. How to spot hallucinations, protect sensitive data, and stay accountable for what you publish.</p>
+          <a class="track-card__link" href="#library">Lessons inside →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INSIDE A LESSON ============ -->
+  <section class="lesson">
+    <div class="container lesson__container">
+      <div class="lesson__copy">
+        <p class="section-head__eyebrow">Inside a lesson</p>
+        <h2 class="section-head__title">A short video. A clean transcript. One real exercise.</h2>
+        <p class="lesson__text">Every lesson at NeuralPulse Academy follows the same simple shape. A short, focused video (usually 6–9 minutes) introduces a single idea. The full transcript sits below it, with terms linked to a built-in glossary. Then we ask you to try one concrete exercise so the idea stops being abstract.</p>
+        <ul class="lesson__points">
+          <li class="lesson__point"><span>01</span> Watch the lesson at your own pace.</li>
+          <li class="lesson__point"><span>02</span> Read the transcript and annotated notes.</li>
+          <li class="lesson__point"><span>03</span> Run the exercise in any AI tool you already use.</li>
+        </ul>
+      </div>
+      <figure class="lesson__preview">
+        <img class="lesson__img" src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=80&auto=format&fit=crop" alt="A laptop with a writing application open on a clean wooden desk" />
+        <figcaption class="lesson__caption">Lesson 03 · Prompting Mastery — "Writing a brief the model can actually follow."</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ LEARNING PATH ============ -->
+  <section class="path">
+    <div class="container">
+      <header class="section-head">
+        <p class="section-head__eyebrow">Your learning path</p>
+        <h2 class="section-head__title">Beginner. Practitioner. Power user.</h2>
+        <p class="section-head__lede">There's no leaderboard here, no streaks, no badges. Just three honest stages, each with a few outcomes you'll notice in your own work.</p>
+      </header>
+      <ol class="path__list">
+        <li class="path__step">
+          <span class="path__step-num">01</span>
+          <h3 class="path__step-title">Beginner</h3>
+          <p class="path__step-text">You can describe what a language model is, write a clear basic prompt, and tell the difference between a confident answer and a verified one.</p>
+        </li>
+        <li class="path__step">
+          <span class="path__step-num">02</span>
+          <h3 class="path__step-title">Practitioner</h3>
+          <p class="path__step-text">You can structure long-form work with AI, edit its drafts to your voice, and choose the right tool for a given job without overpaying in time or trust.</p>
+        </li>
+        <li class="path__step">
+          <span class="path__step-num">03</span>
+          <h3 class="path__step-title">Power user</h3>
+          <p class="path__step-text">You design durable workflows, build small custom tools, and teach your team to use AI in a way that is auditable, accurate, and kind to its readers.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ INSTRUCTORS ============ -->
+  <section class="instructors" id="instructors">
+    <div class="container">
+      <header class="section-head">
+        <p class="section-head__eyebrow">Instructors</p>
+        <h2 class="section-head__title">Taught by people who actually do this work.</h2>
+      </header>
+      <div class="instructors__grid">
+        <article class="person">
+          <img class="person__img" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=900&q=80&auto=format&fit=crop" alt="Portrait of instructor Dr. Maya Chen smiling at the camera" />
+          <h3 class="person__name">Dr. Maya Chen</h3>
+          <p class="person__title">Faculty Lead, AI Foundations</p>
+          <p class="person__bio">Former research scientist at a Bay Area lab. Writes about how models learn for non-technical readers.</p>
+        </article>
+        <article class="person">
+          <img class="person__img" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=900&q=80&auto=format&fit=crop" alt="Portrait of instructor Marcus Hale in a soft-lit studio" />
+          <h3 class="person__name">Marcus Hale</h3>
+          <p class="person__title">Lead Instructor, Prompting Mastery</p>
+          <p class="person__bio">Spent a decade as an editor before turning to AI. Treats prompting like a craft of careful briefs.</p>
+        </article>
+        <article class="person">
+          <img class="person__img" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=900&q=80&auto=format&fit=crop" alt="Portrait of instructor Priya Kapoor in a bright office" />
+          <h3 class="person__name">Priya Kapoor</h3>
+          <p class="person__title">Lead Instructor, Responsible AI</p>
+          <p class="person__bio">Policy researcher and former federal advisor. Brings a calm, rigorous lens to questions of safety and bias.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STUDENT VOICES ============ -->
+  <section class="voices">
+    <div class="container">
+      <header class="section-head">
+        <p class="section-head__eyebrow">Student voices</p>
+        <h2 class="section-head__title">What learners take away.</h2>
+      </header>
+      <div class="voices__grid">
+        <figure class="quote">
+          <blockquote class="quote__text">I came in thinking prompting was a trick. I left understanding it as writing a clear brief — something I already knew how to do, just better.</blockquote>
+          <figcaption class="quote__author">— Helena R., librarian, Portland, OR</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote class="quote__text">The Responsible AI track is the only one I've seen that takes hallucinations seriously without being alarmist. It changed how I check my own work.</blockquote>
+          <figcaption class="quote__author">— Daniel O., paralegal, Atlanta, GA</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote class="quote__text">I'm a teacher in my fifties. The lessons are short, the exercises are concrete, and nobody is selling me anything. That alone is rare.</blockquote>
+          <figcaption class="quote__author">— Yvonne S., educator, Madison, WI</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ OPEN LIBRARY ============ -->
+  <section class="library" id="library">
+    <div class="container">
+      <header class="section-head">
+        <p class="section-head__eyebrow">Open library</p>
+        <h2 class="section-head__title">Browse a few lessons.</h2>
+        <p class="section-head__lede">A small sample of titles from across our tracks. Every lesson on the site is freely browsable.</p>
+      </header>
+      <ul class="accordion">
+        <li class="accordion__item">
+          <button class="accordion__head" aria-expanded="false">
+            <span class="accordion__label">What is a token, really?</span>
+            <span class="accordion__chevron" aria-hidden="true"></span>
+          </button>
+          <div class="accordion__body"><p>The smallest unit a language model reads and writes. We walk through how a familiar sentence becomes a sequence of tokens — and why this matters when you write prompts.</p></div>
+        </li>
+        <li class="accordion__item">
+          <button class="accordion__head" aria-expanded="false">
+            <span class="accordion__label">How to fact-check an AI answer</span>
+            <span class="accordion__chevron" aria-hidden="true"></span>
+          </button>
+          <div class="accordion__body"><p>A short, repeatable process for checking claims: ask for sources, test edge cases, and verify against an authoritative document — before you publish anything.</p></div>
+        </li>
+        <li class="accordion__item">
+          <button class="accordion__head" aria-expanded="false">
+            <span class="accordion__label">Designing a daily AI workflow</span>
+            <span class="accordion__chevron" aria-hidden="true"></span>
+          </button>
+          <div class="accordion__body"><p>How to weave AI into a normal workday without losing your taste, voice, or attention. We share a default day from one of our instructors and explain each choice.</p></div>
+        </li>
+        <li class="accordion__item">
+          <button class="accordion__head" aria-expanded="false">
+            <span class="accordion__label">Editing an AI draft without losing your voice</span>
+            <span class="accordion__chevron" aria-hidden="true"></span>
+          </button>
+          <div class="accordion__body"><p>Three editing passes that keep what's useful and remove what's generic. Includes a side-by-side before/after of a real article.</p></div>
+        </li>
+        <li class="accordion__item">
+          <button class="accordion__head" aria-expanded="false">
+            <span class="accordion__label">Reading the room: when not to use AI</span>
+            <span class="accordion__chevron" aria-hidden="true"></span>
+          </button>
+          <div class="accordion__body"><p>Some tasks are better done by a person. We catalogue the cases — sensitive notes, legal advice, condolences — and explain why.</p></div>
+        </li>
+        <li class="accordion__item">
+          <button class="accordion__head" aria-expanded="false">
+            <span class="accordion__label">A short history of the Transformer</span>
+            <span class="accordion__chevron" aria-hidden="true"></span>
+          </button>
+          <div class="accordion__body"><p>The 2017 paper that quietly reshaped the field. We walk through the core idea — attention — in plain language, with diagrams.</p></div>
+        </li>
+        <li class="accordion__item">
+          <button class="accordion__head" aria-expanded="false">
+            <span class="accordion__label">How to keep your data private when using AI</span>
+            <span class="accordion__chevron" aria-hidden="true"></span>
+          </button>
+          <div class="accordion__body"><p>Practical settings, defaults, and habits. What "training on your data" actually means, and how to turn it off for the tools most people use.</p></div>
+        </li>
+        <li class="accordion__item">
+          <button class="accordion__head" aria-expanded="false">
+            <span class="accordion__label">Teaching your team to use AI well</span>
+            <span class="accordion__chevron" aria-hidden="true"></span>
+          </button>
+          <div class="accordion__body"><p>A short guide for managers and leads. How to write a calm internal policy, run a 60-minute team workshop, and avoid the two most common mistakes.</p></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <header class="section-head">
+        <p class="section-head__eyebrow">FAQ</p>
+        <h2 class="section-head__title">Honest answers.</h2>
+      </header>
+      <ul class="accordion accordion--faq">
+        <li class="accordion__item">
+          <button class="accordion__head" aria-expanded="false">
+            <span class="accordion__label">Is this really free?</span>
+            <span class="accordion__chevron" aria-hidden="true"></span>
+          </button>
+          <div class="accordion__body"><p>Yes. Every lesson, transcript, and exercise on the site is free to read. We don't sell courses, certifications, or subscriptions. The academy is an independent editorial project.</p></div>
+        </li>
+        <li class="accordion__item">
+          <button class="accordion__head" aria-expanded="false">
+            <span class="accordion__label">Do I need a tech background?</span>
+            <span class="accordion__chevron" aria-hidden="true"></span>
+          </button>
+          <div class="accordion__body"><p>No. The Foundations and Prompting tracks assume nothing beyond comfort using a web browser. The Productivity track touches code in a few optional lessons, clearly labeled.</p></div>
+        </li>
+        <li class="accordion__item">
+          <button class="accordion__head" aria-expanded="false">
+            <span class="accordion__label">How long does a track take?</span>
+            <span class="accordion__chevron" aria-hidden="true"></span>
+          </button>
+          <div class="accordion__body"><p>Most learners finish a track in three to five evenings. There is no deadline and no completion timer.</p></div>
+        </li>
+        <li class="accordion__item">
+          <button class="accordion__head" aria-expanded="false">
+            <span class="accordion__label">What tools will I use?</span>
+            <span class="accordion__chevron" aria-hidden="true"></span>
+          </button>
+          <div class="accordion__body"><p>Exercises are written to work with the major free AI assistants available in the United States. We never require a specific paid product.</p></div>
+        </li>
+        <li class="accordion__item">
+          <button class="accordion__head" aria-expanded="false">
+            <span class="accordion__label">Do you offer certificates?</span>
+            <span class="accordion__chevron" aria-hidden="true"></span>
+          </button>
+          <div class="accordion__body"><p>We share a printable completion note when you finish a track. It is not an accredited credential and we don't charge for it. We think real learning shows up in your work, not in a PDF.</p></div>
+        </li>
+        <li class="accordion__item">
+          <button class="accordion__head" aria-expanded="false">
+            <span class="accordion__label">Who is behind this academy?</span>
+            <span class="accordion__chevron" aria-hidden="true"></span>
+          </button>
+          <div class="accordion__body"><p>A small, independent editorial team based in San Francisco. We are not affiliated with any AI lab, vendor, or platform.</p></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ NEWSLETTER ============ -->
+  <section class="newsletter">
+    <div class="container newsletter__inner">
+      <div class="newsletter__copy">
+        <h2 class="newsletter__title">One new lesson in your inbox each week.</h2>
+        <p class="newsletter__text">Short, careful, and never noisy. You can unsubscribe with one click.</p>
+      </div>
+      <form class="newsletter__form" id="newsletter-form" novalidate>
+        <label class="newsletter__label" for="newsletter-email">Email address</label>
+        <div class="newsletter__row">
+          <input class="newsletter__input" id="newsletter-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required />
+          <button class="btn btn--primary" type="submit">Subscribe</button>
+        </div>
+        <p class="newsletter__feedback" id="newsletter-feedback" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <div class="footer__logo">
+          <span class="header__logo-mark" aria-hidden="true"></span>
+          <span>NeuralPulse Academy</span>
+        </div>
+        <p class="footer__tagline">Learn to think with AI.</p>
+        <address class="footer__address">
+          1455 Market Street, Suite 600<br/>
+          San Francisco, CA 94103, United States<br/>
+          <a href="tel:+14155550184">+1 (415) 555-0184</a><br/>
+          <a href="mailto:info@neuralpulse.com">info@neuralpulse.com</a>
+        </address>
+      </div>
+      <div class="footer__columns">
+        <nav class="footer__col" aria-label="Learn">
+          <h3 class="footer__col-title">Learn</h3>
+          <a class="footer__link" href="#tracks">Tracks</a>
+          <a class="footer__link" href="#library">Library</a>
+          <a class="footer__link" href="#instructors">Instructors</a>
+          <a class="footer__link" href="#faq">FAQ</a>
+        </nav>
+        <nav class="footer__col" aria-label="Legal">
+          <h3 class="footer__col-title">Legal</h3>
+          <button class="footer__link footer__link--btn" data-open-modal="privacy">Privacy Policy</button>
+          <button class="footer__link footer__link--btn" data-open-modal="terms">Terms of Use</button>
+          <button class="footer__link footer__link--btn" data-open-modal="cookies">Cookie Policy</button>
+        </nav>
+        <nav class="footer__col" aria-label="Follow">
+          <h3 class="footer__col-title">Follow</h3>
+          <a class="footer__link" href="#" aria-label="X">X / Twitter</a>
+          <a class="footer__link" href="#" aria-label="LinkedIn">LinkedIn</a>
+          <a class="footer__link" href="#" aria-label="RSS">RSS</a>
+        </nav>
+      </div>
+    </div>
+    <div class="footer__base">
+      <div class="container footer__base-row">
+        <p>© 2026 NeuralPulse Academy. An independent editorial project.</p>
+        <p>Made with care in San Francisco, California.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ MODALS ============ -->
+  <div class="modal modal--privacy" id="modal-privacy" role="dialog" aria-modal="true" aria-labelledby="modal-privacy-title" hidden>
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__dialog" role="document">
+      <header class="modal__header">
+        <h2 class="modal__title" id="modal-privacy-title">Privacy Policy</h2>
+        <button class="modal__close" aria-label="Close" data-close-modal>×</button>
+      </header>
+      <div class="modal__body">
+        <p><strong>Effective date:</strong> January 1, 2026</p>
+        <p>This Privacy Policy describes how NeuralPulse Academy ("NeuralPulse," "we," "our," or "us") collects, uses, and protects information when you visit neuralpulse.com (the "Site"). We have written this policy in plain English because we believe people should be able to understand what happens with their information without a law degree. If anything here is unclear, please reach us at <a href="mailto:info@neuralpulse.com">info@neuralpulse.com</a>.</p>
+        <h3>Information we collect</h3>
+        <p>NeuralPulse Academy is an editorial publication. We do not sell products, take payments, or ask you to create an account in order to read lessons. The only information we knowingly collect is the email address you choose to share with us through our newsletter form, together with basic, non-identifying analytics about how the Site is used. Analytics events include the pages you view, your approximate region (derived from IP address), the type of device you are using, and the referring site that brought you here. We do not collect names, postal addresses, telephone numbers, or government identifiers through the Site.</p>
+        <h3>How we use information</h3>
+        <p>Email addresses are used solely to deliver our weekly newsletter and important notices about the Site, such as changes to this policy. Analytics data is used in aggregate to understand which lessons are read, which sections are confusing, and how the Site performs on different devices. We do not use this information to build advertising profiles, and we do not share it with advertising networks.</p>
+        <h3>Cookies and similar technologies</h3>
+        <p>We use a small number of strictly necessary cookies to remember your cookie consent and accessibility preferences. We do not set advertising or cross-site tracking cookies. You can review and adjust your cookie choices at any time through the Cookie Settings option, and you can clear cookies from your browser at any time without affecting your ability to read the Site.</p>
+        <h3>How long we keep information</h3>
+        <p>If you subscribe to the newsletter, we keep your email address until you unsubscribe, which you can do with a single click from any newsletter we send. Aggregated analytics data is retained for up to twenty-four months. Server logs are retained for no more than ninety days.</p>
+        <h3>Your rights</h3>
+        <p>If you are a resident of the United States, you may request a copy of any personal information we hold about you, ask us to correct inaccuracies, or ask us to delete the information entirely. To make a request, write to <a href="mailto:info@neuralpulse.com">info@neuralpulse.com</a> from the email address concerned and we will respond within thirty (30) days. California residents have additional rights under the California Consumer Privacy Act, including the right to know what categories of personal information are collected and the right to opt out of any sale of personal information; we do not sell personal information.</p>
+        <h3>Children</h3>
+        <p>The Site is intended for a general adult audience. We do not knowingly collect personal information from children under the age of thirteen (13). If you believe a child has provided us with personal information, please contact us and we will delete it.</p>
+        <h3>Changes to this policy</h3>
+        <p>We may update this policy from time to time. When we do, we will revise the effective date above and, for material changes, post a clear notice on the home page for at least thirty (30) days. Continued use of the Site after the effective date constitutes acceptance of the revised policy.</p>
+        <h3>Contact</h3>
+        <p>For any privacy-related question, write to NeuralPulse Academy, 1455 Market Street, Suite 600, San Francisco, CA 94103, United States, or email <a href="mailto:info@neuralpulse.com">info@neuralpulse.com</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal modal--terms" id="modal-terms" role="dialog" aria-modal="true" aria-labelledby="modal-terms-title" hidden>
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__dialog" role="document">
+      <header class="modal__header">
+        <h2 class="modal__title" id="modal-terms-title">Terms of Use</h2>
+        <button class="modal__close" aria-label="Close" data-close-modal>×</button>
+      </header>
+      <div class="modal__body">
+        <p><strong>Effective date:</strong> January 1, 2026</p>
+        <p>Welcome to neuralpulse.com (the "Site"), operated by NeuralPulse Academy ("NeuralPulse," "we," "our," or "us"). By accessing or using the Site, you agree to these Terms of Use ("Terms"). If you do not agree, please do not use the Site. These Terms form a legal agreement between you and NeuralPulse Academy and are governed by the laws of the State of California, United States, without regard to its conflict-of-laws principles.</p>
+        <h3>About the Site</h3>
+        <p>NeuralPulse Academy is a free, editorial publication that offers lessons, articles, and reference material about artificial intelligence. The Site is provided for general informational and educational purposes only. Nothing on the Site constitutes legal, medical, financial, or other professional advice, and you should not rely on the content as a substitute for professional judgment.</p>
+        <h3>Use of the Site</h3>
+        <p>You may read, share, and quote our lessons for personal, educational, and non-commercial purposes, provided you attribute NeuralPulse Academy and link to the original lesson. You may not (a) copy substantial portions of the Site for commercial republication; (b) scrape, harvest, or programmatically extract content at scale; (c) attempt to disrupt or compromise the Site's security; (d) misrepresent your affiliation with NeuralPulse Academy; or (e) use the Site to violate any applicable law.</p>
+        <h3>Intellectual property</h3>
+        <p>All original text, graphics, video, and code on the Site are © 2026 NeuralPulse Academy, except where otherwise noted. The NeuralPulse Academy name and logo are protected marks. Third-party photographs are used under license from their respective providers and remain the property of their owners.</p>
+        <h3>User submissions</h3>
+        <p>If you submit your email address through our newsletter form, you grant us a limited license to send you the newsletter and related communications. We will not publish your email address or share it with third parties for advertising. You are responsible for ensuring you have the right to submit any address you provide.</p>
+        <h3>Third-party links</h3>
+        <p>The Site may link to third-party websites, including reference materials, papers, and books we recommend in our reading lists. We do not control those sites and are not responsible for their content, privacy practices, or availability.</p>
+        <h3>Disclaimer of warranties</h3>
+        <p>The Site and its content are provided on an "as is" and "as available" basis, without warranties of any kind, express or implied, including warranties of merchantability, fitness for a particular purpose, or non-infringement. We do not warrant that the Site will be uninterrupted, secure, or error-free, or that the content will be current or accurate at all times.</p>
+        <h3>Limitation of liability</h3>
+        <p>To the maximum extent permitted by applicable law, NeuralPulse Academy and its contributors will not be liable for any indirect, incidental, consequential, special, or punitive damages arising out of or in connection with your use of the Site. Our total liability for any claim related to the Site is limited to one hundred U.S. dollars ($100).</p>
+        <h3>Changes to these Terms</h3>
+        <p>We may update these Terms from time to time. We will revise the effective date and, for material changes, post a notice on the home page for at least thirty (30) days. Continued use of the Site after the effective date constitutes acceptance of the revised Terms.</p>
+        <h3>Contact</h3>
+        <p>Questions about these Terms may be sent to <a href="mailto:info@neuralpulse.com">info@neuralpulse.com</a> or NeuralPulse Academy, 1455 Market Street, Suite 600, San Francisco, CA 94103, United States.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal modal--cookies" id="modal-cookies" role="dialog" aria-modal="true" aria-labelledby="modal-cookies-title" hidden>
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__dialog" role="document">
+      <header class="modal__header">
+        <h2 class="modal__title" id="modal-cookies-title">Cookie Policy</h2>
+        <button class="modal__close" aria-label="Close" data-close-modal>×</button>
+      </header>
+      <div class="modal__body">
+        <p><strong>Effective date:</strong> January 1, 2026</p>
+        <p>This Cookie Policy explains how NeuralPulse Academy ("NeuralPulse," "we," "our," or "us") uses cookies and similar technologies when you visit neuralpulse.com (the "Site"). It should be read alongside our Privacy Policy. We aim to use as few cookies as we reasonably can.</p>
+        <h3>What is a cookie?</h3>
+        <p>A cookie is a small text file placed on your device by a website. Cookies allow a site to remember your actions and preferences (such as accepted cookies, accessibility settings, or recent pages) over a period of time, so you do not have to keep re-entering them whenever you come back. Similar technologies — such as local storage and session storage — work in comparable ways. In this policy, we use "cookie" to mean cookies and these similar technologies.</p>
+        <h3>Categories of cookies we use</h3>
+        <p><strong>Strictly necessary cookies.</strong> These are required for the Site to function. They record your cookie consent choice, remember whether you have dismissed the cookie banner, and keep accessibility preferences such as reduced-motion. The Site cannot function correctly without these and they cannot be disabled in our preferences panel; you can, however, block all cookies in your browser settings.</p>
+        <p><strong>Analytics cookies (optional).</strong> If you accept analytics, we set a small number of cookies that help us understand how the Site is used in aggregate — for example, which lessons are read, which devices are common, and which pages return errors. We use a privacy-respecting analytics provider that does not build cross-site advertising profiles. If you reject analytics, no analytics cookies are set.</p>
+        <p><strong>Advertising cookies.</strong> We do not use advertising cookies. The Site does not display third-party ads.</p>
+        <h3>Your choices</h3>
+        <p>The first time you visit the Site, a cookie banner offers three choices: <em>Accept all</em>, <em>Reject non-essential</em>, and <em>Cookie settings</em>. Your choice is stored locally on your device so you do not have to repeat it every visit. You can change your choice at any time by clearing the relevant local storage entry (named "neuralpulse_cookie_consent") in your browser, or by reopening this Cookie Policy and using the "Cookie settings" link in the footer.</p>
+        <h3>Browser controls</h3>
+        <p>Most browsers allow you to refuse cookies, delete them, or be notified when one is set. The Help menu in your browser will explain how. If you choose to refuse all cookies, the Site will still load, but our cookie banner may keep appearing on each visit because we no longer have a way to remember that you have already made a choice.</p>
+        <h3>Updates to this policy</h3>
+        <p>We may update this Cookie Policy from time to time. When we do, we will revise the effective date above. We encourage you to re-read this policy occasionally so that you stay informed about how we use cookies.</p>
+        <h3>Contact</h3>
+        <p>If you have questions about our use of cookies, write to <a href="mailto:info@neuralpulse.com">info@neuralpulse.com</a> or NeuralPulse Academy, 1455 Market Street, Suite 600, San Francisco, CA 94103, United States.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ COOKIE BANNER ============ -->
+  <aside class="cookie-banner" id="cookie-banner" role="region" aria-label="Cookie notice" hidden>
+    <div class="cookie-banner__inner">
+      <p class="cookie-banner__text">We use a small set of cookies to remember your preferences and understand how the site is used. You can choose what's right for you below. See our <button class="cookie-banner__inline" data-open-modal="cookies">Cookie Policy</button> for details.</p>
+      <div class="cookie-banner__actions">
+        <button class="cookie-banner__btn cookie-banner__btn--accept" data-consent="accept">Accept all</button>
+        <button class="cookie-banner__btn cookie-banner__btn--reject" data-consent="reject">Reject non-essential</button>
+        <button class="cookie-banner__btn cookie-banner__btn--settings" data-open-modal="cookies">Cookie settings</button>
+      </div>
+    </div>
+  </aside>
+
+  <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+  <script src="three-bg.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
